@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {
+            "status": "draft",
+            "file": "2019-05-23-Hello-world.md",
+            "created_at": "Thu, 23 May 2019 13:58:03 GMT",
+            "slug": "hello-world"
+        }
+    ]
+}
