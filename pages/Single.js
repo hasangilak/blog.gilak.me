@@ -6,6 +6,10 @@ function Single(props) {
 }
 
 Single.getInitialProps = function (stuff) {
+    if(process.browser === false) {
+        require('fs')
+        console.log('shout out for me bro')
+    }
     return { ...stuff.query }
 }
 

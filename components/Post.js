@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Post(props) {
-    return <div> a single post </div>
+function Post({ text }) {
+    return <p> {text} </p>
 }
 
 export default Post
