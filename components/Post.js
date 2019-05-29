@@ -1,6 +1,12 @@
-import React from 'react'
+// @flow
 
-function Post({ text }) {
+import React, {type, Node} from 'react'
+
+type Props = {
+    text: string,
+}
+
+function Post({ text }: Props) {
     return <p> {text} </p>
 }
 
