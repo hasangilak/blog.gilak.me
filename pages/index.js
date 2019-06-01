@@ -1,7 +1,8 @@
 import React from 'react'
+import About from "../components/About";
 
 function Home() {
-    return <div>come to me</div>
+    return <About/>
 }
 
 export default Home

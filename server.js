@@ -17,7 +17,7 @@ app.prepare().then(() => {
         const { pathname, query } = parsedUrl;
 
         if (slugs.includes(pathname)) {
-            app.render(req, res, '/Single', {
+            app.render(req, res, '/single', {
                 ...query,
                 post: memoisedRendredPost(
                     pathname,
